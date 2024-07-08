@@ -1,3 +1,5 @@
+# 001
+
 use_bpm 60
 
 lluvia = "C:/Users/adria/OneDrive/Escritorio/sonic pi/samples/lluvia.mp3"
@@ -37,6 +39,6 @@ live_loop :melody, sync: :alpha do
 end
 
 live_loop :lluvia, sync: :alpha do
-  sample lluvia, amp: 1
+  sample lluvia, amp: 1, pitch: -12
   sleep sample_duration(lluvia)
 end
