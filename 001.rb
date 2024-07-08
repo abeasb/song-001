@@ -2,7 +2,7 @@
 
 use_bpm 60
 
-lluvia = "C:/Users/adria/OneDrive/Escritorio/sonic pi/samples/lluvia.mp3"
+lluvia = "./lluvia.mp3"
 
 define :alpha_waves do
   use_synth :sine
