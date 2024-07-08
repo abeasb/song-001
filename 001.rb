@@ -1,8 +1,7 @@
-# 001
-
 use_bpm 60
 
-lluvia = "./lluvia.mp3"
+# put your own path here idk
+lluvia = "C:/Users/adria/OneDrive/Escritorio/sonic pi/samples/lluvia.mp3"
 
 define :alpha_waves do
   use_synth :sine
